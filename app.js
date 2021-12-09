@@ -1,5 +1,5 @@
 const container = document.querySelector(".container");
-const apiKey = "oFd1S7SkZ8bB4erYRKFmEMGhtBeLebkLCUjVl3qF3P8";
+const apiKey = "f0G5nGf375N3TGwBNMxFuJciNL7tE_dstg7ghcaR1Mw";
 const apiURL = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${10}`;
 //Get a batch of images and append to container div
 
