@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  padding: 0px;
+  background-color: rgb(204, 223, 223);
+}
+h1 {
+  text-align: center;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.container {
+  -moz-column-count: 3;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 10px;
+  column-count: 3;
+  column-gap: 10px;
+  width: 70%;
+}
+img {
+  width: 100%;
+}
